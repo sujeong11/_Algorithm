@@ -7,6 +7,7 @@ num = []
 
 for i in str(y):
     num.append(int(i))
+    print(num);
 
 for i in range(len(str(y)) - 1, -1, -1):
     print(x * num[i])

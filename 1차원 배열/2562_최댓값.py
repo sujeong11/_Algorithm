@@ -11,4 +11,4 @@ for i in range(9):
 max_num = max(arr)
 
 print(max_num)
-print(arr.index(max_num)+1)
+print(arr.index(max_num) + 1)

@@ -7,9 +7,9 @@ def hansu(num):
     for i in range(1, num+1):
         num = list(map(int, str(i)))
         if i < 100:
-            count += 1  # 100보다 작으면 모두 한수
+            count += 1  # 자리수가 1이거나 2이면 비교할 대상이 없으므로 바로 한수가 되버린다.
         elif num[0]-num[1] == num[1]-num[2]:
-            count += 1  # x의 각 자리가 등차수열이면 한수
+            count += 1
 
     return count
 
@@ -25,7 +25,6 @@ print(hansu(N))
 #     for i in num:
 #         digit.append(i)
 #
-#     # 자리수가 1이거나 2이면 비교할 대상이 없으므로 바로 한수가 되버린다.
 #     if (len(num) == 1 or len(num) == 2):
 #         return True
 #     elif (len(num) == 3):

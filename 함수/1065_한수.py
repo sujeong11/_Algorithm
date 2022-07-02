@@ -4,11 +4,11 @@
 def hansu(num):
     count = 0
 
-    for i in range(1, num+1):
+    for i in range(1, num + 1):
         num = list(map(int, str(i)))
         if i < 100:
             count += 1  # 자리수가 1이거나 2이면 비교할 대상이 없으므로 바로 한수가 되버린다.
-        elif num[0]-num[1] == num[1]-num[2]:
+        elif (num[0] - num[1]) == (num[1] - num[2]):
             count += 1
 
     return count

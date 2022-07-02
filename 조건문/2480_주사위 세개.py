@@ -1,16 +1,16 @@
 # 언어: Python, (성공/실패) : 1/1, 메모리 : 30840KB, 시간 : 68ms
 
-A, B, C = map(int, input().split());
+A, B, C = map(int, input().split())
 
 if (A == B == C):
-    print(10000 + A * 1000);
+    print(10000 + A * 1000)
 # elif (A == B):
 #     print(1000 + A * 100);
 # elif (B == C):
 #     print(1000 + B * 100);
 elif (A == B or B == C):
-    print(1000 + B * 100);
+    print(1000 + B * 100)
 elif (A == C):
-    print(1000 + A * 100);
+    print(1000 + A * 100)
 else:
-    print(max(A, B, C) * 100);
+    print(max(A, B, C) * 100)

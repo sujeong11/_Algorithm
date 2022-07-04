@@ -1,4 +1,4 @@
-# 언어: Python, (성공/실패) : 1/2, 메모리 : 30840KB, 시간 : 116ms
+# 언어 : Python, (성공/실패) : 1/2, 메모리 : 30840KB, 시간 : 116ms
 
 N, M = map(int, input().split())
 board = []

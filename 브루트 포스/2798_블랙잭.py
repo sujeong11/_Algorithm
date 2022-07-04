@@ -1,4 +1,4 @@
-# 언어: Python, (성공/실패) : 1/0, 메모리 : 30840KB, 시간 : 132ms
+# 언어 : Python, (성공/실패) : 1/0, 메모리 : 30840KB, 시간 : 132ms
 
 N, M = map(int, input().split())
 nums = list(map(int, input().split()))

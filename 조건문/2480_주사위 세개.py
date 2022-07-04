@@ -1,4 +1,4 @@
-# 언어: Python, (성공/실패) : 1/1, 메모리 : 30840KB, 시간 : 68ms
+# 언어 : Python, (성공/실패) : 1/1, 메모리 : 30840KB, 시간 : 68ms
 
 A, B, C = map(int, input().split())
 

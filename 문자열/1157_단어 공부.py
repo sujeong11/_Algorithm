@@ -1,4 +1,4 @@
-# 언어: Python, (성공/실패) : 1/1, 메모리 : 32796KB, 시간 : 104ms
+# 언어 : Python, (성공/실패) : 1/1, 메모리 : 32796KB, 시간 : 104ms
 
 word = input().upper()
 unique_word = list(set(word)) # 중복 값을 제거한 단어

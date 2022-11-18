@@ -18,9 +18,10 @@ for x in range(n):
                     count += 1
 
                     if count == 5:
-                        # 육목인지 체크한다.
+                        # 육목 체크 1) 연속된 바둑알의 제일 마지막 좌표와 해당 좌표에서 한 칸 더 이동한 좌표가 같은지 체크
                         if 0 <= x - dx[i] < n and 0 <= y - dy[i] < n and board[x - dx[i]][y - dy[i]] == board[x][y]:
                             break
+                        # 육목 체크 2) 제일 처음 좌표와 해당 좌표에서 한 칸 덜 이동한 좌표가 같은지 체크
                         if 0 <= nx + dx[i] < n and 0 <= ny + dy[i] < n and board[nx + dx[i]][ny + dy[i]] == board[x][y]:
                             break
                         print(board[x][y])

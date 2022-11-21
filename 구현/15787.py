@@ -6,13 +6,11 @@ result = []
 for i in range(len(cmd)):
     # 1번 명령
     if cmd[i][0] == 1:
-        if seat[cmd[i][1]-1][cmd[i][2]-1] == 0:
-            seat[cmd[i][1]-1][cmd[i][2]-1] = 1
+        seat[cmd[i][1]-1][cmd[i][2]-1] = 1
 
     # 2번 명령
     if cmd[i][0] == 2:
-        if seat[cmd[i][1] - 1][cmd[i][2] - 1] == 1:
-            seat[cmd[i][1] - 1][cmd[i][2] - 1] = 0
+        seat[cmd[i][1] - 1][cmd[i][2] - 1] = 0
 
     # 3번 명령
     if cmd[i][0] == 3:

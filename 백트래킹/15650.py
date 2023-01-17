@@ -1,4 +1,3 @@
-# 내장함수 permutations으로 풀이 가능
 import sys
 input = sys.stdin.readline
 
